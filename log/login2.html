@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>My portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    </head>
+    <body>
+
+        <h2 id="fl">I am the changing text</h2>
+        <div id="error"></div>
+        <input type="text" id="text" placeholder="input your email">
+        <button id="hi">click me to change text</button>
+
+
+        <script>
+            document.getElementById("hi").onclick = function(){
+                // alert("hello world");
+              document.getElementById("fl").innerHTML = "<code>thanks for clicking me</code>";
+              if(document.getElementById("fl").innerHTML ="<code>thanks for clicking me</code>"){
+                alert("it worked");
+            }else{
+                alert("oops you're wrong")
+            }
+
+            
+            }
+        </script>
+        
+    </body>
+</html>
+
+
+
+
+
